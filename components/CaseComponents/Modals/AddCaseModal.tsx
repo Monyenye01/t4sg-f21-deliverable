@@ -135,12 +135,11 @@ const AddCaseModal: React.FC<AddCaseModalProps> = (props) => {
                 to render a MenuItem with category id as the value, and the 
                 category name as the text.
               */}
-              data = ManagementContainerQuery;
               {data
-                 ? data.Managementcategory.map((category: any, index: number) => {
-              <MenuItem key={index} value={category.id}>
+                 ? data.category.map((category: any, index: number) => {
+                return <MenuItem key={index} value={category.id}>
 	          {category.name}
-              </MenuItem>;
+                 </MenuItem>;
               }) : "Not available"}
               {/* END TODO */}
             </Select>
