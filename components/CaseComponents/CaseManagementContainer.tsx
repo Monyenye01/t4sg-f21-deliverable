@@ -54,18 +54,6 @@ const CaseManagementContainer: React.FC = (props) => {
           a CaseCategory for every category in the response.
           Remember, the response is stored in the "data" variable!
         */}
-        <Grid item xs={4}>
-          <MockCaseCategory category_id={1} />
-        </Grid>
-        <Grid item xs={4}>
-          <MockCaseCategory category_id={1} />
-        </Grid>
-        <Grid item xs={4}>
-          <MockCaseCategory category_id={1} />
-        </Grid>
-        <Grid item xs={4}>
-          <MockCaseCategory category_id={1} />
-        </Grid>
 
         {/* END TODO */}
       </Grid>
