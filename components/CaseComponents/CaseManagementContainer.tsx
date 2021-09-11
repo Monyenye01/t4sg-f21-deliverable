@@ -54,12 +54,15 @@ const CaseManagementContainer: React.FC = (props) => {
           a CaseCategory for every category in the response.
           Remember, the response is stored in the "data" variable!
         */}
- 
+        <row>
+            <col>
         {data
             ? data.category.map((m: any) => {
                 return <CaseCategory key={m.id} category_id={m.id} />;
               })
             : "Something went wrong"}
+            </col>
+        </row>
         {/* END TODO */}
       </Grid>
 
