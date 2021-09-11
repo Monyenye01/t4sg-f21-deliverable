@@ -66,7 +66,6 @@ const CaseManagementContainer: React.FC = (props) => {
         <Grid item xs={4}>
           <MockCaseCategory category_id={1} />
         </Grid>
-      </Grid>
 
         {/* END TODO */}
       </Grid>
