@@ -56,7 +56,7 @@ const CaseManagementContainer: React.FC = (props) => {
         */}
  
         {data
-            ? data.cases.map((m: string) => {
+            ? data.cases.map((m: any) => {
                 return <CaseCategory key={m.id} data={m.name} />;
               })
             : "Something went wrong"}
