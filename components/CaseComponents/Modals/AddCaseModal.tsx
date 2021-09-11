@@ -137,7 +137,7 @@ const AddCaseModal: React.FC<AddCaseModalProps> = (props) => {
               */}
               data = ManagementContainerQuery;
               {data
-                 ? data.category.map((category: any, index: number) => {
+                 ? data.Managementcategory.map((category: any, index: number) => {
               <MenuItem key={index} value={category.id}>
 	          {category.name}
               </MenuItem>;
