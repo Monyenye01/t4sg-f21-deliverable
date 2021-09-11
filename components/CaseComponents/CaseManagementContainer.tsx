@@ -19,8 +19,11 @@ import AddCategoryModal from "./Modals/AddCategoryModal";
   in this variable 
 */
 export const ManagementContainerQuery = `
-query MyQuery {
-  __typename 
+query QueryCategory {
+  category{
+	name
+  	id
+  }
 }
 `;
 // END TODO
