@@ -141,7 +141,7 @@ const AddCaseModal: React.FC<AddCaseModalProps> = (props) => {
               <MenuItem key={index} value={category.id}>
 	          {category.name}
               </MenuItem>;
-              })
+              }) : "Not available"}
               {/* END TODO */}
             </Select>
           </FormControl>
