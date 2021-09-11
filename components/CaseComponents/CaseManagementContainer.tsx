@@ -55,8 +55,8 @@ const CaseManagementContainer: React.FC = (props) => {
           Remember, the response is stored in the "data" variable!
         */}
  
-        {category
-            ? category.cases.map((c: CaseData, index: number) => {
+        {data
+            ? data.cases.map((c: CaseData, index: number) => {
                 return <CaseCard key={index} data={c} />;
               })
             : "Something went wrong"}
