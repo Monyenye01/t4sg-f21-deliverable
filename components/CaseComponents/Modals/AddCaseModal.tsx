@@ -135,7 +135,7 @@ const AddCaseModal: React.FC<AddCaseModalProps> = (props) => {
                 to render a MenuItem with category id as the value, and the 
                 category name as the text.
               */}
-              
+              data = ManagementContainerQuery;
               {data
                  ? data.category.map((category: any, index: number) => {
               <MenuItem key={index} value={category.id}>
