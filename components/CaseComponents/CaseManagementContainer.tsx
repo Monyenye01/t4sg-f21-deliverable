@@ -56,7 +56,7 @@ const CaseManagementContainer: React.FC = (props) => {
         */}
  
         data.category.map(categories => {
-             <optsion key={categories.id} value={categories.name}>
+             <option key={categories.id} value={categories.name}>
                 {categories.name}
     	     </option>
         {/* END TODO */}
