@@ -55,7 +55,7 @@ const CaseManagementContainer: React.FC = (props) => {
           Remember, the response is stored in the "data" variable!
         */}
  
-        {data.map((item: string, index) => {
+        {data.map((item: string) => {
              return <CaseCategory key={item.id} value = {item.name} />;
               })
         }
