@@ -55,9 +55,10 @@ const CaseManagementContainer: React.FC = (props) => {
           Remember, the response is stored in the "data" variable!
         */}
  
-        data.category.map(categories => {
+        {data.category.map(categories => (
              <option key={categories.id} value={categories.name}>
                 {categories.name}
+             ))}
     	     </option>
         {/* END TODO */}
       </Grid>
