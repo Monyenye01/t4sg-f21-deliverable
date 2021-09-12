@@ -45,7 +45,7 @@ type AddCaseModalProps = {
   in this variable 
 */
 const InsertCaseMutation = `
-mutation AddCaseMutation($description: String = "", $name: String = "", $status: String) {
+mutation AddCaseMutation($description: String = "", $name: String = "", $status: String = "") {
   insert_cases_one(object: {description: $description, name: $name, status: $status}) {
     name
     description
